@@ -1,3 +1,5 @@
+				VIM MOMENTO
+
 i                    		=> Mode insertion
 R				=> Mode Remplacement
 A				=> Mode Ajouter
