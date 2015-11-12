@@ -40,11 +40,13 @@ set background=dark
 "set showmatch		" Show matching brackets.
 set ignorecase		" Do case insensitive matching
 "set smartcase		" Do smart case matching
+set ignorecase		" Ignore la case lors des recherches
 "set incsearch		" Incremental search
 "set autowrite		" Automatically save before commands like :next and :make
+set background=dark 	" Adapte les couleurs pour un fond noir
 "set hidden		" Hide buffers when they are abandoned
-set mouse=a		" Enable mouse usage (all modes)
-
+set mouse=a		" Autoriser l'usage de la souris
+set smartindent		" Indentation intéligent
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
